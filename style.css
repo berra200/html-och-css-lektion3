@@ -4,11 +4,19 @@
   }
   
   /* Add Question 2 CSS below: */
-  
+  .rainbow {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 20px;
+  }
   /* Question 3/4 */
-  .highlight-me {
+  div.highlight-me {
     color: black;
     font-size: 16px;
+    background-color: yellow;
   }
   
   /* Question 5 */
@@ -17,6 +25,7 @@
     height: 70px;
     background-color: black;
     margin: 10px;
+    display: inline-block;
   }
   
   /* Question 6 */
@@ -25,12 +34,14 @@
     color: grey;
     font-size: 30px;
     width: 100px;
+    visibility: hidden;
   }
   
   /* Question 7 */
   .increase-orange {
     background-color: orange;
     display: inline-block;
+    padding: 20px;
   }
   
   /* Question 8 */
@@ -38,6 +49,7 @@
     background-color: green;
     width: 200px;
     height: 20px;
+    margin: 5px;
   }
   
   /* Question 9 */
@@ -45,6 +57,12 @@
     background-color: black;
     color: white;
     text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .user-friendly:hover {
+    background-color: lightpink;
+    transition: 0.5s;
   }
   
   /* Question 10 */
@@ -53,8 +71,9 @@
     text-align: center;
     width: 100px;
     height: 100px;
-  }
-  .center-me {
+    line-height: 100px;
+}
+.center-me {
     display: inline-block;
   }
   
@@ -63,6 +82,9 @@
     width: 200px;
     height: 60px;
     background-color: green;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
   }
   
   /* Question 12 */
@@ -73,6 +95,9 @@
     text-align: center;
     text-decoration: none;
     color: black;
+    position: fixed;
+    top: 10px;
+    right: 10px;
   }
   
   /* Question 13 */
@@ -80,6 +105,8 @@
     background-color: #bb00ff;
     width: 200px;
     height: 100px;
+    top: 20px;
+    left: 40px;
   }
   
   /* Question 14 */
@@ -87,11 +114,15 @@
     width: 200px;
     height: 50px;
     background-color: grey;
+    disp
   }
   .move-me {
     width: 220px;
     height: 60px;
     background-color: blue;
+    position: relative;
+    right: 30px;
+    bottom: 30px;
   }
   
   /* Question 15 */
@@ -172,3 +203,6 @@
     text-decoration: underline;
   }
   
+  p span {
+
+  }
